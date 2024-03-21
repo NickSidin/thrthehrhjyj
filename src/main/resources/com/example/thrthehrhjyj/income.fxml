@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane layoutX="6.0" layoutY="5.0" prefHeight="704.0" prefWidth="1283.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.thrthehrhjyj.Income">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1283.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Group 21.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="545.0" layoutY="238.0" text="ДОХОДЫ" textFill="#e6fff2">
+         <font>
+            <Font name="Montserrat Alternates SemiBold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="addincomeButton" layoutX="88.0" layoutY="302.0" mnemonicParsing="false" text="ДОБАВИТЬ ДОХОД">
+         <font>
+            <Font name="Montserrat Alternates SemiBold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="mainButton" contentDisplay="TEXT_ONLY" graphicTextGap="0.0" layoutX="114.0" layoutY="163.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="190.0" style="-fx-border-color: GREEN;" text="ГЛАВНАЯ" textFill="#595b5a">
+         <font>
+            <Font name="Montserrat Alternates SemiBold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="incomeButton" layoutX="355.0" layoutY="163.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="190.0" style="-fx-border-color: GREEN;" text="ДОХОДЫ" textFill="#595b5a">
+         <font>
+            <Font name="Montserrat Alternates SemiBold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="expenseButton" layoutX="610.0" layoutY="163.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="190.0" style="-fx-border-color: GREEN;" text="РАСХОДЫ" textFill="#595b5a">
+         <font>
+            <Font name="Montserrat Alternates SemiBold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="finButton" layoutX="863.0" layoutY="162.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="357.0" style="-fx-border-color: GREEN;" text="ФИНАНСОВЫЕ ЦЕЛИ" textFill="#595b5a">
+         <font>
+            <Font name="Montserrat Alternates SemiBold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
